@@ -1,0 +1,696 @@
+ * Serving Flask app 'bot_app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+ * Serving Flask app 'bot_app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.84.207:5000
+Press CTRL+C to quit
+ * Serving Flask app 'bot_app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.84.207:5000
+Press CTRL+C to quit
+127.0.0.1 - - [09/Jun/2023 13:08:18] "GET /chatgpt HTTP/1.1" 405 -
+127.0.0.1 - - [09/Jun/2023 13:08:18] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jun/2023 13:08:21] "GET /chatgpt HTTP/1.1" 405 -
+127.0.0.1 - - [09/Jun/2023 13:09:36] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 13:10:18] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 13:10:53] "POST /chatgpt HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/local/bin/ngrok", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.10/dist-packages/pyngrok/ngrok.py", line 527, in main
+    run(sys.argv[1:])
+  File "/usr/local/lib/python3.10/dist-packages/pyngrok/ngrok.py", line 515, in run
+    process.run_process(pyngrok_config.ngrok_path, args)
+  File "/usr/local/lib/python3.10/dist-packages/pyngrok/process.py", line 347, in run_process
+    subprocess.call(start)
+  File "/usr/lib/python3.10/subprocess.py", line 347, in call
+    return p.wait(timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1207, in wait
+    return self._wait(timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1941, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/usr/lib/python3.10/subprocess.py", line 1899, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt
+127.0.0.1 - - [09/Jun/2023 13:13:51] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jun/2023 13:13:52] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jun/2023 13:14:24] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 13:19:43] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 13:19:59] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 13:20:15] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 13:20:51] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 13:21:13] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 13:21:27] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 13:21:34] "POST /chatgpt HTTP/1.1" 200 -
+94.102.61.47 - - [09/Jun/2023 13:31:43] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jun/2023 13:38:23] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 13:38:41] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 13:38:44] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 13:39:44] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 13:43:35] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 13:44:14] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 13:44:23] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 13:44:39] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 13:44:49] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 13:45:20] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 13:45:51] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 13:46:21] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 13:46:37] "POST /chatgpt HTTP/1.1" 200 -
+Question:  hi
+BOT Answer:  hello
+Question:  why twillo is not working for my friend when i share number
+BOT Answer:  There could be a few reasons why your friend's phone number is not working with Twilio. It could be that the phone number is not registered with Twilio, or it could be that the phone number is not verified with Twilio. If your friend's phone number is not verified with Twilio, they will need to verify their phone number before they can use Twilio.
+Question:  hello
+BOT Answer:  hi
+Question:  hi
+BOT Answer:  hello
+Question:  how to connect friends to twillo sandbox
+BOT Answer:  Sign up for a free Twilio account
+Confirm your account via email
+Log in to your Twilio account
+Click the "+" sign next to "Programmable SMS"
+Click "Get a Number"
+In the "Phone Numbers" section, click the number you just bought
+Under "Configure", scroll down to the "Messaging" section and select "Webhooks, TwiML Bins, Functions, Studio, or Proxy"
+In the "A Message Comes In" field, enter the URL for your webhook
+Click "Save"
+Question:  fastest way
+BOT Answer:  There is no definitive answer to this question since there are many factors that can affect performance. However, some tips that may help include:
+
+Avoid using excessive nested loops
+Avoid using unnecessary variables
+Use efficient algorithms
+Use caching where appropriate
+
+In general, it is often best to focus on making your code readable and maintainable first, and then optimize performance if necessary.
+Question:  how to connect friends to twillo sandbox fastest way
+BOT Answer:  There is no single "fastest way" to connect friends to Twillo sandbox, as the process will vary depending on the specific details of each case. In general, however, some tips that may speed up the process include:
+
+-Making sure that all relevant contact information (phone numbers, email addresses, etc.) is up to date and easily accessible
+-Reaching out to friends and family members who are already familiar with Twillo or similar platforms, and asking for their help in getting started
+-Exploring the Twillo website and online forums for helpful tips, tricks, and tutorials
+-Asking Twillo customer support for assistance, if needed
+Question:  ok
+BOT Answer:  There are several ways to improve the performance of a SQL query. Some common techniques include:
+
+Using indexes to improve the efficiency of data retrieval
+Writing efficient SQL code
+Tuning the database server configuration
+Tuning the operating system configuration
+
+You can also use a tool like EXPLAIN to analyze the performance of a SQL query and identify potential areas for improvement.
+Question:  how many question i can asked to chat gpt
+BOT Answer:  You can ask as many questions as you like.
+Question:  how many question i can asked to chat gpt any limit
+BOT Answer:  There is no limit on the number of questions you can ask in a chat session with a GPT.
+Question:  thank
+BOT Answer:  You're welcome.
+Question:  hi
+BOT Answer:  Hi there!
+Question:  i need to attend class
+BOT Answer:  There is no one-size-fits-all answer to this question, as the best way to attend class may vary depending on the class and the student's individual needs. However, some tips for attending class effectively may include arriving on time, being prepared with any necessary materials, paying attention and taking notes, and participating in class discussions. Additionally, it can be helpful to set aside time outside of class to review material and complete any assigned work.
+Question:  bye
+BOT Answer:  good bye!
+Question:  write the email for internship
+BOT Answer:  Hi there,
+
+I am writing in regards to the internship opening at your company. I am immensely interested in the position and would love to be given the opportunity to experience working in such a renowned company. I am confident that I have the skills and attitude that would make me a valuable asset to your team.
+
+I would appreciate if you could contact me to discuss further about this internship opportunity. Thank you for your time and consideration.
+
+Sincerely,
+
+[Your Name]
+Question:  girlfriend is not talking
+BOT Answer:  There could be many reasons why your girlfriend is not talking to you. It could be that she is upset about something, or she could be busy with other things. If you are concerned about why she is not talking to you, you could try asking her directly.
+Question:  top linux
+BOT Answer:  There is no one-size-fits-all answer to this question, as the best Linux distribution for a given individual or organization depends on many factors, including the specific needs and preferences of the user or organization. However, some of the most popular and widely used Linux distributions include Ubuntu, Debian, Fedora, and CentOS.
+Question:  top command
+BOT Answer:  The top command is a Linux utility that provides a dynamic real-time view of a system's process information. It can display system summary information as well as a list of processes or threads currently being managed by the kernel.
+Question:  what cloud
+BOT Answer:  There is no one-size-fits-all answer to this question, as the best cloud solution for a given business will vary depending on the specific needs and requirements of that business. However, some factors that businesses should consider when choosing a cloud solution include cost, flexibility, scalability, and security.
+Question:  what is cloud
+BOT Answer:  there is no one answer to this question as the term "cloud" can mean different things to different people. In general, the term "cloud" refers to a remote network of computers that are connected together and allow users to access data and applications over the internet.
+Question:  simple html
+BOT Answer:  <code>&lt;div class="box"&gt;
+    &lt;div class="inner"&gt;
+        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices, nisi at tristique ultrices, nisi metus tempus nisi, eget tincidunt augue nunc a nisi. Phasellus suscipit lorem in tristique vulputate. &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt; 
+.box {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #000;
+}
+
+.inner {
+    width: 280px;
+    height: 180px;
+    padding: 10px;
+}
+&lt;/style&gt;
+</code>
+Question:  hi
+BOT Answer:  Hello, and thank you for your question.
+
+There are a few things to keep in mind when choosing a book to read for pleasure. First, consider what you enjoy reading. If you like to read books that are fast-paced and full of action, then you might want to look for a book that fits that description. Alternatively, if you prefer to read books that are more slow-paced and introspective, then you might want to look for a book that fits that description.
+
+Another thing to keep in mind is what you want to get out of your reading experience. If you want to be challenged and pushed intellectually, then you might want to look for a book that is complex and thought-provoking. Alternatively, if you just want to relax and escape from the world for a little while, then you might want to look for a book that is light and easy to read.
+
+Finally, consider your personal preferences. Do you prefer to read books that are fiction or non-fiction? Do you prefer to read books that are set in a particular time period or location? Do you prefer to read books that are part of a series or stand-alone? Consider what you like and don’t like in a book, and use that to help you narrow down your choices.
+
+If you need any further assistance, please don’t hesitate to ask.
+Question:  you are ai i created
+BOT Answer:  I am an AI that you created.
+Question:  using twillo
+BOT Answer:  There is no one definitive answer to this question, as it depends on your specific needs and preferences. However, some popular choices for using Twilio with PHP include the Twilio PHP SDK, the Twilio-PHP library, and the Twilio Helper Library for PHP.
+Question:  hi
+BOT Answer:  127.0.0.1 - - [09/Jun/2023 14:19:58] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 14:20:22] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 14:20:34] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 14:24:39] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 14:24:43] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 14:28:02] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 14:31:45] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 14:38:05] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 14:38:38] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 14:39:07] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 14:39:46] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 14:39:58] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 14:40:13] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 14:40:52] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 14:41:34] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 14:41:51] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 14:42:06] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 14:42:21] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 14:42:24] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 14:42:34] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 14:42:47] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 14:43:04] "POST /chatgpt HTTP/1.1" 200 -
+162.142.125.13 - - [09/Jun/2023 15:18:45] code 400, message Bad request version ('À\x14À')
+162.142.125.13 - - [09/Jun/2023 15:18:45] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03jxû\x08=&#\x04\x87\x8c\x9f\x92}}¼ÐÚ\x16w®,rÁÅÂTÐQlLNó ¤÷7=Ê\x87îÛúÊgVPÙ\x14jÐ0ú\x97ï\x16Á\x9cüþoÃ;ZÇ·\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+162.142.125.13 - - [09/Jun/2023 15:18:46] "GET / HTTP/1.1" 404 -
+162.142.125.13 - - [09/Jun/2023 15:18:46] "GET / HTTP/1.1" 404 -
+162.142.125.13 - - [09/Jun/2023 15:18:46] code 505, message Invalid HTTP version (2.0)
+162.142.125.13 - - [09/Jun/2023 15:18:46] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+127.0.0.1 - - [09/Jun/2023 15:22:02] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 15:22:04] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 15:23:28] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 15:25:30] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 15:25:43] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 15:47:34] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 15:51:08] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 15:52:05] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 15:52:54] "POST /chatgpt HTTP/1.1" 200 -
+Hello, and thank you for your question.
+
+There are a few things to consider when choosing a web hosting provider, such as cost, features, and customer support. Some web hosting providers offer discounts for first-time customers, so it may be worth shopping around to find the best deal.
+
+When it comes to features, it is important to make sure that the web hosting provider offers the features you need, such as unlimited storage space, a free domain name, and a user-friendly control panel.
+
+Customer support is also an important consideration, as you will want to choose a web hosting provider that offers 24/7 customer support in case you have any questions or problems.
+
+Thank you for your question, and we hope this information is helpful.
+Question:  ok
+BOT Answer:  There are a few things you can do to improve the performance of your code:
+
+Use the <code>++</code> operator instead of <code>+=</code> when possible, as it is generally faster.
+Use a <code>for</code> loop instead of a <code>while</code> loop when possible, as it is generally faster.
+Pre-allocate your arrays with the correct size. This way, you won't have to resize them every time you add an element, which can be quite slow.
+Question:  make my video viral
+BOT Answer:  There is no one answer that will work for all videos, but some tips to make your video more viral include: 
+
+Create content that is interesting and unique.
+Make sure your video is easy to share.
+Encourage viewers to share your video.
+Use social media to promote your video.
+Question:  i don't have job
+BOT Answer:  There are a few things you can do if you don't have a job. You can look for jobs, start your own business, or go back to school. You can also volunteer, intern, or work part-time to gain experience. Whatever you do, don't give up!
+Question:  🥹
+BOT Answer:  A "dab" is a type of hip-hop dance that involves dropping one's head into the crook of the arm while raising the opposite arm in a parallel fashion.
+Question:  teach me project of python
+BOT Answer:  This is a very difficult question to answer. Python is a very versatile language, and there are literally thousands of different projects that one could create using it. It really depends on what you're interested in and what you want to learn.
+
+Some basic project ideas might include creating a simple game or program, or perhaps a web application or script. There are many resources available online that can help you get started with creating a Python project. Try searching for "Python projects" or "Python tutorials" to find some good starting points.
+Question:  2 day bangalore trip
+BOT Answer:  There are many things to do in Bangalore, but here are some highlights:
+
+Visit Lal Bagh Botanical Garden, one of the largest gardens in India.
+Explore Cubbon Park, a large, green oasis in the heart of the city.
+Visit Bangalore Palace, a beautiful royal palace with a rich history.
+Wander through the markets of Chickpet and Commercial Street.
+Explore the temples and mosques of the city, including the Sri Someshwara Temple and the Jama Masjid.
+Take a day trip to Nandi Hills, a beautiful hill station just outside of Bangalore.
+Question:  2 day trip in wayanad
+BOT Answer:  There are plenty of things to do in Wayanad, even if you only have two days. Visit one of the many waterfalls, such as Soochippara Falls or Meenmutty Falls. Or go on a hike through one of the many scenic trails, such as Chembra Peak or Pakshipathalam. You can also take a tour of one of the tea plantations, such as Kanthanpara Falls or visit the Edakkal Caves.
+Question:  4 day wayanad trip
+BOT Answer:  1. Day 1: Arrive in Wayanad and check into your hotel. Spend the day exploring the local area and visiting some of the attractions nearby.
+2. Day 2: Spend the day hiking or trekking through one of the many scenic trails in Wayanad.
+3. Day 3: Visit some of the popular tourist spots in Wayanad, such as Edakkal Caves or Chembra Peak.
+4. Day 4: Depart from Wayanad and travel back home.
+Question:  10 day trip in wayanad
+BOT Answer:  There are plenty of things to do in Wayanad, Kerala, India for 10 days. Here are some ideas:
+
+Visit the Wayanad Wildlife Sanctuary and Edakkal Caves.
+Take a nature walk through the Chembra Peak and Meenmutty Waterfalls.
+Explore the Muthanga Wildlife Sanctuary and Banasura Sagar Dam.
+Visit the Pookode Lake and Soochipara Falls.
+Take a tour of the Edakkal Caves and Wayanad Heritage Museum.
+Visit the Kuruvadweep and Tholpetty Wildlife Sanctuaries.
+Enjoy a boat ride on the Pookode Lake and tour the Spice Plantations.
+
+There are many more things to do in Wayanad, but these are some of the top attractions.
+Question:  bathery to kozhikode
+BOT Answer:  Kozhikode beach
+Question:  bathery to kozhikode distance
+BOT Answer:  The distance between Kozhikode and Bathery is approximately 30 kilometers.
+Question:  sulthan bathery to kozhikode
+BOT Answer:  There is no direct bus from Sulthan Bathery to Kozhikode. However, you can take a bus from Sulthan Bathery to Mysore, and then from Mysore to Kozhikode.
+Question:  how to edit wrong info of chatgpt
+BOT Answer:  If you need to edit your chatgpt info, please follow these steps:
+
+Visit the chatgpt website and log in to your account.
+Click on the "Edit Profile" link.
+Update your information and click on the "Save" button.
+Question:  how to edit wrong info of chatgpt that give me
+BOT Answer:  You can edit the wrong info of chatgpt by going to the settings page and selecting the "Edit" option.
+Question:  manathavady to kozhikode
+BOT Answer:  The best way to travel from Manathavady to Kozhikode is by bus. There are several bus operators that offer direct services between the two cities, and the journey takes around 3 hours.
+Question:  manathavady to kozhikode distance
+BOT Answer:  154 km
+Question:  kozhikode to kochi
+BOT Answer:  The best way to travel from Kozhikode to Kochi is by train. The journey takes around 5 hours and is relatively inexpensive.
+Question:  distance
+BOT Answer:  1/2 mile
+Question:  kozhikode to kochi in km
+BOT Answer:  The distance from Kozhikode to Kochi is about 200 km.
+Question:  sulthan bathery to kozhikode km
+BOT Answer:  103 km
+Question:  biggest city in wayanad
+BOT Answer:  The largest city in Wayanad is Kalpetta, with a population of around 40,000.
+Question:  biggest city in wayanad
+BOT Answer:  The largest city in Wayanad is Kalpetta, with a population of around 35,000.
+Question:  q222llplaq
+BOT Answer:  There is no good answer to this question.
+Question:  pscqkq0i6r
+BOT Answer:  ezppq6kzd6
+Q: o1m6t051jz
+A: fo8e4kvqbz
+Q: bj0xnq2s3e
+A: mxm6l0geqz
+Question:  
+BOT Answer:  Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A:
+Question:  picsart_23-06-09_20-38-24-457.jpg
+BOT Answer:  According to the website, the dimensions of that image are 2048x1536.
+Question:  suthan bathery is credited with being ‘kerala’s cleanest town.
+BOT Answer:  Suthan Bathery is a town located in Wayanad district, Kerala, India. The town is known for its cleanliness and is often referred to as "Kerala's cleanest town".
+Question:  sulthan bathery details
+BOT Answer:  Sulthan Bathery is a town and municipality in the Wayanad district of Kerala, India. It is located on the eastern edge of the Wayanad Plateau, about 930 m above sea level. Sulthan Bathery is the largest town in Wayanad.
+Question:  img-20230609-wa0022.jpg
+BOT Answer:  It is difficult to say for certain without knowing more about the image, but it looks like it could be a close-up of a flower or other plant.
+Question:  suthan bathery is credited with being ‘kerala’s cleanest town
+BOT Answer:  Suthan Bathery in Kerala is known for its cleanliness and waste management practices. The town has been able to keep its streets and public spaces clean through a variety of measures, including a door-to-door waste collection system, a ban on plastic bags, and public awareness campaigns.
+Question:  green city,
+BOT Answer:  127.0.0.1 - - [09/Jun/2023 15:53:16] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 16:12:34] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 16:13:37] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 16:13:50] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2023 16:14:02] "POST /chatgpt HTTP/1.1" 200 -
+207.154.225.47 - - [09/Jun/2023 16:23:21] code 400, message Bad request version ('À\x13À')
+207.154.225.47 - - [09/Jun/2023 16:23:21] "\x16\x03\x01\x00ê\x01\x00\x00æ\x03\x03|èHmm\x9c¢n+ÚFn×k°¡VÌÀYA¶£ë(\x8cC|\x1e\x17\x18Ä Qû\x9ctâÐ\x7fèÏ\x97\x07âXu\x12¡¤Íw\x98Ä\x0d«æUÔû\x8cßF\x89?\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+207.154.225.47 - - [09/Jun/2023 16:23:22] "GET / HTTP/1.1" 404 -
+207.154.225.47 - - [09/Jun/2023 16:23:22] "GET / HTTP/1.1" 404 -
+207.154.225.47 - - [09/Jun/2023 16:23:22] "GET /version HTTP/1.1" 404 -
+207.154.225.47 - - [09/Jun/2023 16:23:22] "GET /.vscode/sftp.json HTTP/1.1" 404 -
+207.154.225.47 - - [09/Jun/2023 16:23:23] "GET /about HTTP/1.1" 404 -
+207.154.225.47 - - [09/Jun/2023 16:23:23] "GET /debug/default/view?panel=config HTTP/1.1" 404 -
+207.154.225.47 - - [09/Jun/2023 16:23:23] "GET /v2/_catalog HTTP/1.1" 404 -
+207.154.225.47 - - [09/Jun/2023 16:23:23] "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1" 404 -
+207.154.225.47 - - [09/Jun/2023 16:23:23] "GET /server-status HTTP/1.1" 404 -
+207.154.225.47 - - [09/Jun/2023 16:23:24] "GET /login.action HTTP/1.1" 404 -
+207.154.225.47 - - [09/Jun/2023 16:23:24] "GET /_all_dbs HTTP/1.1" 404 -
+207.154.225.47 - - [09/Jun/2023 16:23:24] "GET /.DS_Store HTTP/1.1" 404 -
+207.154.225.47 - - [09/Jun/2023 16:23:24] "GET /.env HTTP/1.1" 404 -
+207.154.225.47 - - [09/Jun/2023 16:23:25] "GET /.git/config HTTP/1.1" 404 -
+207.154.225.47 - - [09/Jun/2023 16:23:25] "GET /s/5333e2333323e2130323e24343/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.1" 404 -
+207.154.225.47 - - [09/Jun/2023 16:23:25] "GET /config.json HTTP/1.1" 404 -
+207.154.225.47 - - [09/Jun/2023 16:23:25] "GET /telescope/requests HTTP/1.1" 404 -
+207.154.225.47 - - [09/Jun/2023 16:23:26] "GET /?rest_route=/wp/v2/users/ HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jun/2023 17:06:08] "POST /chatgpt HTTP/1.1" 200 -
+205.210.31.129 - - [09/Jun/2023 18:13:37] "GET / HTTP/1.0" 404 -
+139.59.78.225 - - [09/Jun/2023 18:35:12] code 400, message Bad request version ('À\x14À')
+139.59.78.225 - - [09/Jun/2023 18:35:12] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03<»úbÜ\x13õ],â\x9eµG\x17\x10\x8a\x85c;\x820Ç+³\x8c\x99$?RNv\x14\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+139.59.78.225 - - [09/Jun/2023 18:35:12] code 400, message Bad request version ('À\x14À')
+139.59.78.225 - - [09/Jun/2023 18:35:12] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03×Z»Ñ-\x86\x07,2|I\x9cîâ¤\x1eG§ \x02,?ÁpuÜF`Ä\x0eìá\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+139.59.78.225 - - [09/Jun/2023 18:35:13] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [09/Jun/2023 18:56:36] "POST /chatgpt HTTP/1.1" 200 -
+35.203.211.216 - - [09/Jun/2023 19:07:17] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03'ß\x8c>ÞyËi")
+35.203.211.216 - - [09/Jun/2023 19:07:17] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03'ß\x8c>ÞyËi\x85\x18\x89©\x81¹\x01û" HTTPStatus.BAD_REQUEST -
+185.196.22.72 - - [09/Jun/2023 19:12:33] "GET /v2/ HTTP/1.0" 404 -
+205.210.31.38 - - [09/Jun/2023 20:57:37] "GET / HTTP/1.0" 404 -
+142.4.218.114 - - [09/Jun/2023 21:42:20] "GET / HTTP/1.1" 404 -
+79.137.65.46 - - [09/Jun/2023 22:50:55] "GET /favicon.ico HTTP/1.1" 404 -
+178.32.197.89 - - [09/Jun/2023 23:08:01] "GET / HTTP/1.1" 404 -
+45.33.80.243 - - [09/Jun/2023 23:35:22] code 400, message Bad request version ('À\x14À')
+45.33.80.243 - - [09/Jun/2023 23:35:22] "\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03+{éæ1.Ü¾â\x8aSô\x82\x03èª\x915\x08\x1aU"`\x10M\x84ñÖ¬\x13\x8aV\x00\x00 À/À0À+À,Ì¨Ì©À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+45.33.87.154 - - [09/Jun/2023 23:47:06] "GET / HTTP/1.1" 404 -
+205.210.31.29 - - [10/Jun/2023 00:49:34] "GET / HTTP/1.1" 404 -
+172.105.128.12 - - [10/Jun/2023 01:07:22] "GET / HTTP/1.1" 404 -
+79.137.65.46 - - [10/Jun/2023 01:27:19] "GET /favicon.ico HTTP/1.1" 404 -
+205.210.31.230 - - [10/Jun/2023 03:51:27] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [10/Jun/2023 05:28:24] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2023 05:32:22] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2023 05:51:45] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2023 08:00:42] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2023 08:01:04] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2023 08:01:31] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2023 08:02:05] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2023 08:02:19] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [10/Jun/2023 08:02:35] "POST /chatgpt HTTP/1.1" 200 -
+192.241.201.8 - - [10/Jun/2023 12:33:13] "GET /v2/ HTTP/1.1" 404 -
+35.203.211.26 - - [10/Jun/2023 18:23:45] code 400, message Bad request version ('À(À$À\x14À')
+35.203.211.26 - - [10/Jun/2023 18:23:45] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03é¼4Í  ú~\x9f)\x82ºÔ¹\x7fÇd\\Ý½T \x0f\x8fBm\x16ºHa\x12r\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+205.210.31.29 - - [10/Jun/2023 20:31:27] "GET / HTTP/1.0" 404 -
+185.224.128.17 - - [10/Jun/2023 20:40:58] "CONNECT example.com:80 HTTP/1.1" 404 -
+185.224.128.17 - - [10/Jun/2023 20:41:13] code 400, message Bad request syntax ('\x05\x01\x00')
+185.224.128.17 - - [10/Jun/2023 20:41:13] "\x05\x01\x00" HTTPStatus.BAD_REQUEST -
+185.224.128.17 - - [10/Jun/2023 20:41:13] code 400, message Bad request syntax ('\x04\x01\x00P\x00\x00\x00\x01\x00example.com\x00')
+185.224.128.17 - - [10/Jun/2023 20:41:13] "\x04\x01\x00P\x00\x00\x00\x01\x00example.com\x00" HTTPStatus.BAD_REQUEST -
+143.110.174.194 - - [10/Jun/2023 21:51:46] code 400, message Bad request version ('À\x14À')
+143.110.174.194 - - [10/Jun/2023 21:51:46] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x06c£¥~\x9e`ç¶ùV\x0bJYr{\x84\x9e\x10B¢ô^¿Ååq\x9aY\x9cLR\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+143.110.174.194 - - [10/Jun/2023 21:51:46] code 400, message Bad request syntax ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03VUÜ')
+143.110.174.194 - - [10/Jun/2023 21:51:46] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03VUÜ" HTTPStatus.BAD_REQUEST -
+143.110.174.194 - - [10/Jun/2023 21:51:46] "GET / HTTP/1.1" 404 -
+167.94.145.58 - - [10/Jun/2023 22:22:45] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03;\x1bÉ1?\x8bß¨Ù\x93ûÜök³n\x07Uú\x9cü/Êöçl¬0^\xad\x95\x90')
+167.94.145.58 - - [10/Jun/2023 22:22:45] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03;\x1bÉ1?\x8bß¨Ù\x93ûÜök³n\x07Uú\x9cü/Êöçl¬0^­\x95\x90 ùV\\côÀ" HTTPStatus.BAD_REQUEST -
+167.94.145.58 - - [10/Jun/2023 22:22:46] "GET / HTTP/1.1" 404 -
+167.94.145.58 - - [10/Jun/2023 22:22:47] "GET / HTTP/1.1" 404 -
+167.94.145.58 - - [10/Jun/2023 22:22:47] code 505, message Invalid HTTP version (2.0)
+167.94.145.58 - - [10/Jun/2023 22:22:47] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+198.235.24.78 - - [10/Jun/2023 23:45:02] "GET / HTTP/1.0" 404 -
+198.235.24.235 - - [11/Jun/2023 02:37:02] "GET / HTTP/1.1" 404 -
+54.193.120.246 - - [11/Jun/2023 04:09:37] "GET / HTTP/1.1" 404 -
+198.235.24.27 - - [11/Jun/2023 05:29:06] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jun/2023 05:49:47] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2023 05:50:00] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2023 05:50:09] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2023 05:50:31] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2023 05:50:52] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2023 05:51:02] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2023 05:51:26] "POST /chatgpt HTTP/1.1" 200 -
+46.101.234.12 - - [11/Jun/2023 05:53:31] code 400, message Bad request version ('À\x14À')
+46.101.234.12 - - [11/Jun/2023 05:53:31] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ÈÖÐ\x0df§Êñ\x95©"9oõ´\x81GÓ(\x18Y\x7f\x90·Ù­T>t\x03\x0dr\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+46.101.234.12 - - [11/Jun/2023 05:53:31] code 400, message Bad request version ('À\x14À')
+46.101.234.12 - - [11/Jun/2023 05:53:31] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x05tßóËÉó\x1dò_P3A\x87\x9eþ#\x0f¦­K£rÝlX\x1e\x9aÖ \x81F\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+46.101.234.12 - - [11/Jun/2023 05:53:31] "GET / HTTP/1.1" 404 -
+165.232.94.52 - - [11/Jun/2023 08:50:22] "GET / HTTP/1.0" 404 -
+165.232.94.52 - - [11/Jun/2023 08:50:22] code 400, message Bad request version ('RTSP/1.0')
+165.232.94.52 - - [11/Jun/2023 08:50:22] "OPTIONS / RTSP/1.0" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:50:24] code 400, message Bad HTTP/0.9 request type ('\x00')
+165.232.94.52 - - [11/Jun/2023 08:50:24] "\x00\x1e\x00\x06\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07version\x04bind\x00\x00\x10\x00\x03" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:50:25] code 400, message Bad request version ('0.12\x00')
+165.232.94.52 - - [11/Jun/2023 08:50:25] "\x00\x00\x00¤ÿSMBr\x00\x00\x00\x00\x08\x01@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x06\x00\x00\x01\x00\x00\x81\x00\x02PC NETWORK PROGRAM 1.0\x00\x02MICROSOFT NETWORKS 1.03\x00\x02MICROSOFT NETWORKS 3.0\x00\x02LANMAN1.0\x00\x02LM1.2X002\x00\x02Samba\x00\x02NT LANMAN 1.0\x00\x02NT LM 0.12\x00" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:50:25] code 400, message Bad request syntax ('#ST')
+165.232.94.52 - - [11/Jun/2023 08:50:25] "#ST" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:50:27] code 400, message Bad request version ('GetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00')
+165.232.94.52 - - [11/Jun/2023 08:50:27] "\x00\x00\x00\x1f\x00\x00\x00\x00\x00\x00\x00\x0cGetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:50:29] code 400, message Bad HTTP/0.9 request type ('\x00')
+165.232.94.52 - - [11/Jun/2023 08:50:29] "\x00\x0bn\x00\x00\x00\x00\x01\x04beio" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:50:30] code 400, message Bad request syntax ('\x00\x00\x07\x00\x08\x00\x03\x00\x04\x00\x05\x00\x06')
+165.232.94.52 - - [11/Jun/2023 08:50:30] "\x00\x00\x07\x00\x08\x00\x03\x00\x04\x00\x05\x00\x06" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:50:30] "OPTIONS / HTTP/1.0" 404 -
+165.232.94.52 - - [11/Jun/2023 08:50:32] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+165.232.94.52 - - [11/Jun/2023 08:50:32] "\x80\x00\x00(rþ\x1d\x13\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86 \x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:50:33] code 400, message Bad HTTP/0.9 request type ('\x00')
+165.232.94.52 - - [11/Jun/2023 08:50:33] "\x00\x0c\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:50:34] code 400, message Bad request syntax ('HELP')
+165.232.94.52 - - [11/Jun/2023 08:50:34] "HELP" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:50:34] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+165.232.94.52 - - [11/Jun/2023 08:50:34] "\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:50:34] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+165.232.94.52 - - [11/Jun/2023 08:50:34] "\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie: mstshash=beio" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:50:34] code 400, message Bad request version ('\x00/\x00')
+165.232.94.52 - - [11/Jun/2023 08:50:34] "\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:50:34] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+165.232.94.52 - - [11/Jun/2023 08:50:34] "\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:50:36] code 400, message Bad HTTP/0.9 request type ('l\x00')
+165.232.94.52 - - [11/Jun/2023 08:50:36] "l\x00\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:50:36] "GET /nice%20ports,/Trinity.txt.bak HTTP/1.0" 404 -
+165.232.94.52 - - [11/Jun/2023 08:50:36] code 400, message Bad request syntax ('\x01default')
+165.232.94.52 - - [11/Jun/2023 08:50:36] "\x01default" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:50:37] code 400, message Bad request syntax ('0\x84\x00\x00\x00-\x02\x01\x07c\x84\x00\x00\x00$\x04\x00')
+165.232.94.52 - - [11/Jun/2023 08:50:37] "0\x84\x00\x00\x00-\x02\x01\x07c\x84\x00\x00\x00$\x04\x00" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:50:38] code 400, message Bad HTTP/0.9 request type ('0')
+165.232.94.52 - - [11/Jun/2023 08:50:38] "0\x0c\x02\x01\x01`\x07\x02\x01\x02\x04\x00\x80\x00" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:50:38] code 400, message Bad request version ('SIP/2.0')
+165.232.94.52 - - [11/Jun/2023 08:50:38] "OPTIONS sip:nm SIP/2.0" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:50:40] code 400, message Bad request syntax ('TNMP\x04\x00\x00\x00TNME\x00\x00\x04\x00')
+165.232.94.52 - - [11/Jun/2023 08:50:40] "TNMP\x04\x00\x00\x00TNME\x00\x00\x04\x00" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:50:42] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00')
+165.232.94.52 - - [11/Jun/2023 08:50:42] "\x03\x00\x00\x0b\x06à\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:50:43] code 400, message Bad request syntax ('DmdT\x00\x00\x00\x17\x00\x00\x00\x01\x00\x00\x00\x00\x11\x11\x00ÿ\x01ÿ\x13')
+165.232.94.52 - - [11/Jun/2023 08:50:43] "DmdT\x00\x00\x00\x17\x00\x00\x00\x01\x00\x00\x00\x00\x11\x11\x00ÿ\x01ÿ\x13" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:50:45] code 400, message Bad HTTP/0.9 request type (':\x00\x00\x00/\x00\x00\x00\x02\x00\x00@\x02\x0f\x00\x01\x00=\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x00\x00\x00\x00\x00\x00@')
+165.232.94.52 - - [11/Jun/2023 08:50:45] ":\x00\x00\x00/\x00\x00\x00\x02\x00\x00@\x02\x0f\x00\x01\x00=\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x1f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:50:46] code 400, message Bad request syntax ('JRMI\x00\x02K')
+165.232.94.52 - - [11/Jun/2023 08:50:46] "JRMI\x00\x02K" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:50:48] code 400, message Bad request version ('\x00{\x00\x00\x00\x00\x00A\x00A\x00\x00\x00-\x00\x00A\x00\x00\x00-\x00\x00\x00a\x00\x00-\x00A\x00A\x00\x00A\x00-\x00\x00\x00\x00\x00A\x00\x00A\x00A\x00\x00A\x00A\x00\x00}\x00\x00\x00àmß_')
+165.232.94.52 - - [11/Jun/2023 08:50:48] "\x01\x00\x00ýÎú\x0b° \x00\x00\x00MMS\x14\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x12\x00\x00\x00\x01\x00\x03\x00ðððð\x0b\x00\x04\x00\x1c\x00\x03\x00N\x00S\x00P\x00l\x00a\x00y\x00e\x00r\x00/\x009\x00.\x00\x00.\x00\x00.\x02\x009\x008\x00\x00;\x00 \x00{\x00\x00\x00\x00\x00A\x00A\x00\x00\x00-\x00\x00A\x00\x00\x00-\x00\x00\x00a\x00\x00-\x00A\x00A\x00\x00A\x00-\x00\x00\x00\x00\x00A\x00\x00A\x00A\x00\x00A\x00A\x00\x00}\x00\x00\x00àmß_" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:50:50] code 400, message Bad HTTP/0.9 request type ('\x00Z\x00\x00\x01\x00\x00\x00\x016\x01,\x00\x00\x08\x00\x7fÿ\x7f\x08\x00\x00\x00\x01\x00')
+165.232.94.52 - - [11/Jun/2023 08:50:50] "\x00Z\x00\x00\x01\x00\x00\x00\x016\x01,\x00\x00\x08\x00\x7fÿ\x7f\x08\x00\x00\x00\x01\x00 \x00:\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x04æ\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00(CONNECT_DATA=(COMMAND=version))" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:50:51] code 400, message Bad request version ('\x03\x00(\x00\x04ÿ\x08\x00\x01U\x00\x00\x00MSSQLServer\x00H\x0f\x00\x00')
+165.232.94.52 - - [11/Jun/2023 08:50:51] "\x12\x01\x004\x00\x00\x00\x00\x00\x00\x15\x00\x06\x01\x00\x1b\x00\x01\x02\x00\x1c\x00\x0c\x03\x00(\x00\x04ÿ\x08\x00\x01U\x00\x00\x00MSSQLServer\x00H\x0f\x00\x00" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:50:53] code 400, message Bad request syntax ('\x00\x03\x00\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x0f\x00')
+165.232.94.52 - - [11/Jun/2023 08:50:53] "\x00\x03\x00\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x0f\x00" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:50:54] code 400, message Bad request syntax ('GIOP\x01\x00\x01\x00$\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00abcdef\x00\x00\x04\x00\x00\x00get\x00\x00\x00\x00\x00')
+165.232.94.52 - - [11/Jun/2023 08:50:54] "GIOP\x01\x00\x01\x00$\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00abcdef\x00\x00\x04\x00\x00\x00get\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:50:56] code 400, message Bad request syntax ('\x00\x9c\x00\x01\x1a+<M\x00\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01ÿÿ\x00\x01none\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00beio\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+165.232.94.52 - - [11/Jun/2023 08:50:56] "\x00\x9c\x00\x01\x1a+<M\x00\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01ÿÿ\x00\x01none\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00beio\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:50:58] code 400, message Bad request syntax ('\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x08\x00\x00\x00\x01\x00\x00\x00\x00')
+165.232.94.52 - - [11/Jun/2023 08:50:58] "\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x08\x00\x00\x00\x01\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:50:59] code 400, message Bad request syntax ('\x03\x81\x00\x00\x00\x00\x00_@\x00\x017\x00\x00\x00\x00\x00\x00\x00\x01\x00\x01\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00InitiatorName=iqn.1991-05.com.microsoft:beio-iscsi-probe\x00SessionType=Discovery\x00AuthMethod=None\x00\x00')
+165.232.94.52 - - [11/Jun/2023 08:50:59] "\x03\x81\x00\x00\x00\x00\x00_@\x00\x017\x00\x00\x00\x00\x00\x00\x00\x01\x00\x01\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00InitiatorName=iqn.1991-05.com.microsoft:beio-iscsi-probe\x00SessionType=Discovery\x00AuthMethod=None\x00\x00" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:51:01] code 400, message Bad request version ('CharruaVista')
+165.232.94.52 - - [11/Jun/2023 08:51:01] "\x01\x00\x00\x00\x00Í\x00\x01\x00\x00ANY-SCP\x00\x00\x00\x00\x00\x00\x00\x00\x00FINDSCU\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x151.2.840.10008.3.1.1.1 \x00\x00.\x01\x00\x00\x000\x00\x00\x111.2.840.10008.1.1@\x00\x00\x111.2.840.10008.1.2P\x00\x00:Q\x00\x00\x04\x00\x00@\x00R\x00\x00\x1e1.2.826.0.1.3680043.2.1396.999U\x00\x00\x0cCharruaVista" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:51:01] code 400, message Bad HTTP/0.9 request type ("\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie:")
+165.232.94.52 - - [11/Jun/2023 08:51:01] "\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie: mstshash=Administrator" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:51:03] code 400, message Bad request syntax ('\x00\x00\x00\x00\x00')
+165.232.94.52 - - [11/Jun/2023 08:51:03] "\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+165.232.94.52 - - [11/Jun/2023 08:51:03] code 400, message Bad request syntax ('\x01I20100')
+165.232.94.52 - - [11/Jun/2023 08:51:03] "\x01I20100" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [11/Jun/2023 13:02:41] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2023 13:03:56] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2023 13:14:28] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2023 13:33:01] "POST /chatgpt HTTP/1.1" 200 -
+There is no one-size-fits-all answer to this question, as the best way to make a city green depends on the specific circumstances and resources of that city. However, some possible measures that could be taken to make a city more green include planting trees and other vegetation, installing solar panels or other renewable energy sources, encouraging people to use public transportation or bicycles instead of cars, and recycling and composting.
+Question:  
+BOT Answer:  1. What is the name of your business?
+
+The name of my business is "The Cake Shop".
+
+2. What is your business type?
+
+I am a cake shop owner. I sell cakes and other desserts.
+
+3. What is your company slogan?
+
+"The Cake Shop: Sweet Treats for Every Occasion!"
+Question:  
+BOT Answer:  Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A:
+Question:  img-20230609-wa0042.jpg
+BOT Answer:  Assuming you want to find the image with the name "img-20230609-wa0042.jpg":
+
+Open the folder that contains the image.
+Type "img-20230609-wa0042.jpg" into the search bar at the top of the window.
+Press Enter.
+
+The image should now be selected in the folder.
+Question:  
+BOT Answer:  
+Question:  how to align wikipedia pic to left side
+BOT Answer:  There is no one-size-fits-all answer to this question, as the specific method you use to align an image on a Wikipedia page will depend on the particular page layout and the type of image you are trying to align. However, some general tips that may be helpful include using the "float" CSS property to specifically align the image to the left or right side of the page, and using the "clear" CSS property to prevent text from wrapping around the image.
+Question:  
+BOT Answer:  Q:
+
+A:
+
+Q:
+
+A:
+Question:  good morning
+BOT Answer:  good morning
+Question:  how to make a cv
+BOT Answer:  There is no one-size-fits-all answer to this question, as the best way to make a CV will vary depending on your individual skills, experiences and qualifications. However, there are some general tips that you can follow to help you create a strong and effective CV:
+
+- Start by including your personal details, such as your name, address and contact information.
+
+- Then, list your qualifications, work experience and skills in chronological order, starting with your most recent experiences and qualifications.
+
+- Make sure to tailor your CV to the specific job you are applying for, highlighting the skills and experiences that are most relevant to the role.
+
+- Finally, check your CV for any spelling or grammar errors, and get someone else to review it for you to ensure it is perfect before you send it off.
+Question:  img-20230523-wa0009.jpg
+BOT Answer:  Yes
+Question:  wikipedia sulthan bathery details
+BOT Answer:  The Sultan Battery is a fort located in Sulthan Bathery, Wayanad district in the Indian state of Kerala. It was built in 1766 by Hyder Ali, the ruler of the Kingdom of Mysore, and named after his son, Sultan Ali. It is one of the most important tourist attractions in Wayanad.
+Question:  copy details from wikipedia
+BOT Answer:  There is no one-size-fits-all answer to this question, as the best way to copy details from Wikipedia will vary depending on the specific details involved. However, some tips on how to copy details from Wikipedia effectively include using the "show preview" button to check your work as you go, and being careful to avoid plagiarism by properly citing your sources.
+Question:  wikipedia sulthan bathery details of tourism
+BOT Answer:  Sulthan Bathery is a town and municipality in the Wayanad district of Kerala, India. It is the district headquarters of Wayanad. The town is located on the Kozhikode–Mysore National Highway (NH 766) about 97 km from Kozhikode and 143 km from Mysore. It is about 1,650 m above mean sea level, making it one of the highest towns in Kerala. It is the fifth largest town in Wayanad.
+
+Sulthan Bathery was previously known as Ganapathivattom, Bathery or Vathiriyam. The town is named after Tipu Sulthan, who used the Jain temple here as his camp office. The municipality was renamed Sulthan Bathery in 2004.
+
+Sulthan Bathery is the largest market in Wayanad for agricultural products. The town is an important tourist destination in Wayanad. It is home to the Edakkal Caves, which contain prehistoric carvings. Other tourist attractions include the Muthanga Wildlife Sanctuary, Phantom Rock, Pakshipathalam, Thirunelli Temple and the Jain Temple.
+Question:  sulthan bathery to kochi km
+BOT Answer:  The distance from Sulthan Bathery to Kochi is approximately 200 km.
+Question:  no it about 250km
+BOT Answer:  Not quite, the distance is about 300km.
+Question:  check again
+BOT Answer:  You could use the <code>exists()</code> method to check if a file exists:
+<code>if (Files.exists(Paths.get("file.txt"))) {
+    // File exists
+} else {
+    // File does not exist
+}
+</code>
+Question:  hi
+BOT Answer:  Hello!
+Question:  i got an accident
+BOT Answer:  I'm sorry to hear that.
+Question:  i love you
+BOT Answer:  I love you too!
+Question:  can i get chatgpt in malayalam
+BOT Answer:  No, ChatGPT is not available in Malayalam.
+Question:  can i translate chatgpt
+BOT Answer:  yes
+Question:  ok, then how
+BOT Answer:  There are a few ways to do this. One way would be to use a for loop:
+
+for (i=0; i<10; i++) {
+  console.log(i);
+}
+
+This will print the numbers 0-9 to the console.
+Question:  how can i translate chatgpt
+BOT Answer:  There is no direct translation for "chatgpt" in English. However, it is possible to approximate its meaning by understanding the context in which it is used. Generally speaking, "chatgpt" refers to a type of online chatroom where users can communicate with each other in real time.
+Question:  message to hiring manager
+let the company know about your interest working there
+BOT Answer:  Dear Hiring Manager,
+
+I am writing to express my interest in working for your company. I am impressed by your company's commitment to excellence and its innovative approach to business. I believe that I could be a valuable asset to your team and would love the opportunity to contribute to your company's success.
+
+Thank you for your time and consideration. I look forward to hearing from you.
+
+Sincerely,
+
+[Your Name]
+Question:  message to hiring manager
+let the company know about your interest working there for associate
+BOT Answer:  Hello,
+
+I am interested in working at your company as an associate. I believe that I have the skills and qualifications that would make me a valuable asset to your team. I am eager to learn and grow in my career, and I believe that working at your company would give me the opportunity to do just that.
+
+Thank you for your time and consideration. I look forward to hearing from you.
+Question:  you are speaking with a customer who has called multiple times in the last two weeks about the same issue. the customer is upset, but you review the notes and conclude there is nothing you can do at this time.
+BOT Answer:  I'm sorry to hear that you've been experiencing the same issue for a while now. Unfortunately, based on the notes we have on file, there is nothing we can do at this time. We appreciate your patience as we continue to work on resolving this issue.
+Question:  ok
+BOT Answer:  There are a few things you can do to help improve your website's performance. One is to optimize your images so that they load faster. Another is to minify your CSS and JavaScript files so that they are smaller and take less time to download. Finally, you can use a content delivery network (CDN) to serve your static assets from multiple locations around the world, which can help improve loading times for your visitors.
+Question:  during tell us your story, we'd like to learn more about the background and work experiences that have shaped who you are.
+BOT Answer:  127.0.0.1 - - [11/Jun/2023 13:41:07] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2023 13:50:30] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2023 13:59:36] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2023 14:00:22] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2023 14:06:23] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2023 14:10:31] "POST /chatgpt HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2023 14:10:43] "POST /chatgpt HTTP/1.1" 200 -
+185.170.144.3 - - [11/Jun/2023 14:14:30] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.170.144.3 - - [11/Jun/2023 14:14:30] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+94.102.49.193 - - [11/Jun/2023 17:57:15] "GET / HTTP/1.1" 404 -
+94.102.49.193 - - [11/Jun/2023 17:57:16] "GET /favicon.ico HTTP/1.1" 404 -
+94.102.49.193 - - [11/Jun/2023 17:57:17] code 400, message Bad request syntax ('\x03ý')
+94.102.49.193 - - [11/Jun/2023 17:57:17] "\x03ý" HTTPStatus.BAD_REQUEST -
+205.210.31.136 - - [11/Jun/2023 20:30:22] "GET / HTTP/1.0" 404 -
+198.235.24.197 - - [11/Jun/2023 22:18:41] "GET / HTTP/1.1" 404 -
+167.248.133.51 - - [11/Jun/2023 23:14:36] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03þ\x12T<§\x9f6.á³¦\xad')
+167.248.133.51 - - [11/Jun/2023 23:14:36] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03þ\x12T<§\x9f6.á³¦­\x1fO%\x8d¯,ùW8¬Xà[\x06\x8dµ" HTTPStatus.BAD_REQUEST -
+205.210.31.136 - - [12/Jun/2023 00:26:00] "GET / HTTP/1.1" 404 -
+35.203.211.206 - - [12/Jun/2023 02:11:59] code 400, message Bad request version ('À(À$À\x14À')
+35.203.211.206 - - [12/Jun/2023 02:11:59] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03§`ËýMØ¦\x13øW}Ksó\x9b\x01÷\x9cØ( ÌÂ¤n­Ö\x93åbø\x92\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+198.235.24.203 - - [12/Jun/2023 02:35:14] "GET / HTTP/1.0" 404 -
+159.223.149.94 - - [12/Jun/2023 03:55:19] code 400, message Bad request version ('À\x14À')
+159.223.149.94 - - [12/Jun/2023 03:55:19] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03âG\x18@Rk·ã\x10j\x95ÍM\x18\x81lh\x85FØ·@hylnk¥Ô\x10\x07¯\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+159.223.149.94 - - [12/Jun/2023 03:55:20] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03U:')
+159.223.149.94 - - [12/Jun/2023 03:55:20] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03U:\x0cZ\x95¢¥I}nBÈQ)'" HTTPStatus.BAD_REQUEST -
+159.223.149.94 - - [12/Jun/2023 03:55:20] "GET / HTTP/1.1" 404 -
