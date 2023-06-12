@@ -1,5 +1,6 @@
 # Create WhatApp Chatbot💬 using ChatGPT, Flask, and EC2
-
+<source src="https://github.com/iwinster/whatsappbot/WhatsApp Video 2023-06-12 at 1.25.10 PM.mp4" type="video/mp4">
+WhatsApp Video 2023-06-12 at 1.25.10 PM.mp4
 ## We have used:
 - Ngrok and Flask as a server.
 - Twilio as whatsapp agent.
